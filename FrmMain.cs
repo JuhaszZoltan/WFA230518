@@ -36,6 +36,7 @@ namespace WFA230518
             {
                 InsertCommand = cmd,
             };
+
             adapter.InsertCommand.ExecuteNonQuery();
             MessageBox.Show("done!");
 
